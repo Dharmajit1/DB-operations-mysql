@@ -84,7 +84,7 @@ class DbOperations:
     def viewData(self):
         self.dbConnection = None
         try:
-            self.dbConnection = connection.MySQLConnection(user='root', password='satya121',
+            self.dbConnection = connection.MySQLConnection(user='root', password='Tutu@4354',
                                                       host='localhost', port='3306',
                                                       database='test_database_with_python')
 
@@ -107,7 +107,7 @@ class DbOperations:
     def updateData(self):
         self.dbConnection = None
         try:
-            self.dbConnection = connection.MySQLConnection(user='root', password='satya121',
+            self.dbConnection = connection.MySQLConnection(user='root', password='Tutu@4354',
                                                       host='localhost', port='3306',
                                                       database='test_database_with_python')
 
@@ -193,7 +193,7 @@ class DbOperations:
     def deleteData(self):
         self.dbConnection = None
         try:
-            self.dbConnection = connection.MySQLConnection(user='root', password='satya121',
+            self.dbConnection = connection.MySQLConnection(user='root', password='Tutu@4354',
                                                       host='localhost', port='3306',
                                                       database='test_database_with_python')
             self.empID = int(input("Enter employee Id to delete :"))
